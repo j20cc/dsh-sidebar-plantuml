@@ -1,0 +1,59 @@
+{
+  "name": "dsh-sidebar-plantuml",
+  "version": "0.1.0",
+  "description": "Render PlantUML diagrams in the DSH sidebar Markdown preview. Runs the official TeaVM-compiled PlantUML engine entirely in the browser: no Java, no PlantUML server, no network.",
+  "private": false,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "vendor",
+    "docs",
+    "README.md",
+    "NOTICE.md",
+    "LICENSE",
+    "cordis.patch.yml"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-sidebar",
+    "plantuml",
+    "uml",
+    "diagram",
+    "markdown"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j20cc/dsh-sidebar-plantuml.git"
+  },
+  "homepage": "https://github.com/j20cc/dsh-sidebar-plantuml#readme",
+  "bugs": {
+    "url": "https://github.com/j20cc/dsh-sidebar-plantuml/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    },
+    "manifestVersion": 1
+  }
+}
