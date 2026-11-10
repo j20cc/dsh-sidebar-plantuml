@@ -1,5 +1,7 @@
 # dsh-sidebar-plantuml
 
+[![npm version](https://img.shields.io/npm/v/dsh-sidebar-plantuml.svg)](https://www.npmjs.com/package/dsh-sidebar-plantuml)
+
 在 **DSH 右侧边栏的 Markdown 文件预览**里直接渲染 PlantUML 图表。每个
 ` ```plantuml ` 代码块都会变成可交互的 SVG；不需要 Java、PlantUML 服务或网络请求，
 渲染完全在浏览器本地完成。
