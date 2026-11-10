@@ -7,8 +7,6 @@
 这是一个独立的 DSH 插件（npm 包 + host/browser 两端），安装后会自动挂载到
 profile 的 loader，不依赖 `dsh-better-sidebar` 或其他第三方侧边栏插件。
 
-![DSH sidebar PlantUML preview](docs/sidebar-preview.png)
-
 ## 支持的能力
 
 - 支持 `plantuml`、`puml`、`uml`、`iuml`、`pu`、`wsd` 代码块；也识别包含完整
