@@ -31,6 +31,12 @@ dsh plugin --profile web add github:j20cc/dsh-sidebar-plantuml
 dsh plugin --profile web add https://github.com/j20cc/dsh-sidebar-plantuml.git
 ```
 
+已发布版本的 tarball：
+
+```sh
+dsh plugin --profile web add https://github.com/j20cc/dsh-sidebar-plantuml/releases/download/v0.1.0/dsh-sidebar-plantuml-0.1.0.tgz
+```
+
 安装后重启 `dsh web`（或让当前 profile 的 HMR 重新加载），刷新页面即可。
 
 ### 从本地目录安装
