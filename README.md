@@ -44,7 +44,13 @@ D --> User: 侧边栏展示
 
 ## 安装
 
-### 从 GitHub 安装（推荐，当前尚未发布 npm 包）
+### 从 npm 安装（推荐）
+
+```sh
+dsh plugin --profile web add dsh-sidebar-plantuml
+```
+
+### 从 GitHub 安装
 
 ```sh
 dsh plugin --profile web add github:j20cc/dsh-sidebar-plantuml
